@@ -7,14 +7,18 @@
 //*****************
 #include <iostream>
 #include <map>
-
-
 using namespace std;
 
 void plagiarismReq();
 
+const int SIZE = 26;
+
+
 int main()
 {
+	map<string, string> Encrypt;
+	map<string, string> Decrypt;
+
 
 
 	plagiarismReq();
